@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Exito</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulario enviado con éxito</h1>
+        <p>Nombre: <span th:text="${person.name}"></span></p>
+        <p>Apellidos: <span th:text="${person.lastName}"></span></p>
+        <p>Dirección: <span th:text="${person.address}"></span></p>
+        <p>Email: <span th:text="${person.email}"></span></p>
+    </body>
+</html>
